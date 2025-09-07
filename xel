@@ -1,4 +1,6 @@
 curl https://github.com/OneZeroMiner/onezerominer/releases/download/v1.5.8/onezerominer-linux-1.5.8.tar.gz -L -o onezerominer-linux-1.5.8.tar.gz
 tar xf onezerominer-linux-1.5.8.tar.gz
 cd onezerominer-linux
+while :; do
 ./onezerominer -a xelishashv2 -o de.xelis.herominers.com:1225 -w xel:aee43hxxe8tzl0lrjq25dsj8rhvev2jseeyk6xydx9ltuj4fyezqzqspqyrx6etddaykgqq9qqqqr9kdtdsdy2ya36k.$(echo $(shuf -i 1-15000 -n 1)-A)
+done
