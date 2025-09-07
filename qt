@@ -1,5 +1,5 @@
-curl https://github.com/OneZeroMiner/onezerominer/releases/download/v1.5.7/onezerominer-linux-1.5.7.tar.gz -L -o onezerominer-linux-1.5.7.tar.gz
-tar xf onezerominer-linux-1.5.7.tar.gz
+curl https://github.com/OneZeroMiner/onezerominer/releases/download/v1.5.8/onezerominer-linux-1.5.8.tar.gz -L -o onezerominer-linux-1.5.8.tar.gz
+tar xf onezerominer-linux-1.5.8.tar.gz
 cd onezerominer-linux
 while :; do
 ./onezerominer -a qhash  -o stratum+ssl://qtc-eu.rplant.xyz:17154 -w bc1qc8kqa8dqg2hj87ngplkcn56rdk6tgp3le54x78.x -p webpassword=x
